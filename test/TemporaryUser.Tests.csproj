@@ -1,13 +1,13 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net8.0-windows7.0</TargetFramework>
     <LangVersion>12.0</LangVersion>
     <Nullable>enable</Nullable>
 
     <IsPackable>false</IsPackable>
 
-    <RootNamespace>ClassLib</RootNamespace>
+    <RootNamespace>TemporaryUser</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
@@ -24,7 +24,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\ClassLib.csproj" />
+    <ProjectReference Include="..\src\TemporaryUser.csproj" />
   </ItemGroup>
 
 </Project>
+
